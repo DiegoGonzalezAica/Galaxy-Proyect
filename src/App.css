@@ -1,0 +1,113 @@
+/* * Estilos del boton */
+
+.button {
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+  height: 34px;
+  width: 50px;
+  border: none;
+  background: #ffffffff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.lable {
+  line-height: 20px;
+  font-size: 17px;
+  color: #bb4646;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.button:hover .svg-icon {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* * Final */
+
+.app {
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  padding-right: 5rem;
+}
+
+.parent {
+  padding-top: 2rem;
+}
+
+.text {
+  color: #000000;
+  font-weight: 700;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.20));
+  border-radius: 4rem;
+  padding: 2rem;
+  width: 30rem;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  font-size: 15px;
+  
+}
+
+.bg1 {
+  background-image: url("/public/bg1.jpg");
+}
+
+.bg2 {
+  background-image: url("/public/bg2.jpg");
+}
+
+.bg3 {
+  background-image: url("/public/bg3.jpg");
+}
+
+.bg4 {
+  background-image: url("/public/bg4.jpg");
+}
+
+.bg5 {
+  background-image: url("/public/bg5.jpg");
+}
+
+.bg6 {
+  background-image: url("/public/bg6.jpg");
+}
+
+.bg7 {
+  background-image: url("/public/bg7.jpg");
+}
+
+.bg8 {
+  background-image: url("/public/bg8.jpg");
+}
+
+.bg9 {
+  background-image: url("/public/bg9.jpg");
+}
+
+.bg10 {
+  background-image: url("/public/bg10.jpg");
+}
+
+.bg11 {
+  background-image: url("/public/bg11.jpg");
+}

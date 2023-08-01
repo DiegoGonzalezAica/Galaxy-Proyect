@@ -1,0 +1,9 @@
+.BoxPhrase {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    width: min(100%, 400px);
+    padding: 20px 10px;
+    margin: 0 auto;
+    font-family: 'Digital Numbers', sans-serif;                                
+}
